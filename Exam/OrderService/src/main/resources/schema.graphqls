@@ -1,0 +1,10 @@
+type Order {
+    id: ID
+    productId: ID
+    quantity: Int
+    customer: String
+}
+
+type Query {
+    allOrders: [Order]
+}
